@@ -1,6 +1,7 @@
 <?php
 	return array(
 		
+
 		//видалення замовлень
 		'/order-detail/delete/([0-9]+)' => 'orders/deleteDetail/$1', 
 		'/admin/order/delete/([0-9]+)' => 'orders/deleteOrder/$1', 
